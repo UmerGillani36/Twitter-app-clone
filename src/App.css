@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+  
+    display: flex;
+
+}
+
+.Image{
+width:50%;
+/* height: 100%; */
+margin:0;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url('/src/assests/images/joinBackImage.png');
+background-position: top left;
+}
+.Image h1{
+
+    font-size: 300px;
+    color: white;
+}
+.Happening{
+width:50%;
+padding:10px 20px 20px 20px;
+display: flex;
+flex-direction: column;
+}
+
+.Happening .logo {
+    color:#1d9bf0;
+    font-size: 40px;
+    margin:0px 0px 40px 15px;
+}
+.Happening .HeadingOne {
+   
+    font-size: 70px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 800;
+    letter-spacing: 5px;
+    margin-bottom:50px;
+
+}
+.Happening .HeadingTwo {
+   
+    font-size: 28px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 800;
+    letter-spacing: 3px;
+    margin-bottom:30px;
+
+}
+.Registration{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 70%;
+}
+.Registration .Google{
+
+    width:100%;
+    height:40px;
+    border:1px solid lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:25px;
+    font-family: "Google Sans",arial,sans-serif;
+    margin-bottom: 10px;
+
+}
+.Registration .Apple{
+
+    width:100%;
+    height:40px;
+    border:1px solid lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:25px;
+    font-family: "Google Sans",arial,sans-serif;
+    margin-bottom: 10px;
+
+}
+
+.Registration .Or{
+    font-size:18px;
+    position: relative;
+    text-align: center;
+    margin-bottom:10px;
+
+}
+.Registration .Or::before{
+    content: "";
+  display: block;
+  width: 40%;
+  height: 1px;
+  background: lightgrey;
+  left: 10px;
+  top: 50%;
+  position: absolute;
+
+}
+.Registration .Or::after{
+    content: "";
+  display: block;
+  width: 40%;
+  height: 1px;
+  background: lightgrey;
+  right: 10px;
+  top: 50%;
+  position: absolute;
+
+}
+
+
+.Registration .Button{
+
+    border-radius: 25px;
+    font-family: "Google Sans",arial,sans-serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.Registration small{
+
+    font-size:11px;
+    margin:0px 6px 40px 6px;
+    text-align: left;
+}
+.Registration .HaveAccount{
+
+    font-size:18px;
+    font-weight: bold;
+    margin-bottom:15px;
+}
+.sparklesLogo{
+    width:40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center;
+    margin:auto 0px; */
+}
+.sparklesLogo:hover{
+
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: rgb(226, 223, 223);
+}

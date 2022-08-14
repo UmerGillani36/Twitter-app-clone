@@ -1,0 +1,266 @@
+
+.Container{
+    width: 100%;
+    height: 100%;
+   
+    
+}
+.SideNav{
+ background-color: white;
+ height: 100vh;
+ width:317px;
+border-right: 1px solid lightgray; 
+position: fixed;
+}
+.SideNav ul{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+/* align-items: center; */
+list-style-type: none;
+height: 100%;
+
+}
+.SideNav ul li{
+
+    width:'80%';
+    display: flex;
+    align-items: center;
+    
+}
+.SideNav ul li a {
+
+    font-size: 22px;
+    margin-left: 10px;
+    
+}
+.SideNav ul li span{
+    padding: 4px 10px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.SideNav ul li span:hover {
+ border-radius: 25px;
+ background-color: rgb(240, 240, 240);
+ cursor:pointer;
+}
+.SideNav ul li span:active{
+font-weight: bolder;
+}
+.MainContainer{
+    flex-grow: 2;
+    display: flex;
+    justify-content: space-between;
+   margin-left:317px;
+    width: 1023px;
+
+}
+.MainContent{
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid lightgray; 
+
+
+}
+.SideContent{
+    background-color: white;
+
+
+}
+.search{
+ margin: 4px auto;
+ padding:0px 4px;
+ width:380px;
+ height:42px;
+ background-color: #e3e3e345;
+ border-radius:25px;
+}
+.search span{
+ font-size: 22px;
+}
+.search input{
+    font-size: 18px;
+    margin-left: 8px;
+    width:330px;
+    outline: none;
+    border:none;
+    background-color: #e3e3e300;
+
+}
+.SingleTweet{
+    border-bottom: 1px solid rgb(240, 240, 240);
+
+}
+
+/* Profile */
+
+
+.Back {
+    font-size: 20px;
+    width:30px;
+    height:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.Back:hover {
+   background-color:  rgb(240, 240, 240);
+    cursor: pointer;
+}
+
+.WallPaper{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(185, 183, 183);
+    position: relative;
+}
+.ProfilePicture{
+    width: 145.5px;
+    height: 145.5px;
+    position: absolute;
+    top:135px;
+    left:20px;
+
+}
+.ProfilePicture img{
+
+    width: 133.5px;
+    height: 133.5px;
+    border-radius: 50%;
+    border: 4px solid white;
+
+   
+}
+.EditButton{
+    height:48px;
+}
+.EditButton button{
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    width: 111px;
+    height: 34px;
+    font-weight: 600;
+}
+.EditButton button:hover{
+    background-color: rgb(240, 240, 240);
+}
+.ProfileNav{
+    border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.ProfileNav .ProfileNavItem:active{
+
+    font-weight: 600;
+}
+.ProfileNavItem:hover{
+    background-color:  rgb(240, 240, 240);
+    cursor: pointer;
+}
+.OverlayContainer{
+    position: relative; 
+    position:fixed;
+      top:0;
+      left:0;
+      bottom: 0;
+      right: 0;
+      background:rgba(0,0,0,0.3);
+      z-index:2;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+}
+.EditContainer{ 
+   overflow-y: auto;
+   
+}
+.EditHead{
+    height:50px;
+}
+
+.Close {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+
+}
+
+ .Close:hover{
+    background-color:  rgb(240, 240, 240);
+    cursor: pointer;
+}
+.Save{
+    width:70px;
+    height: 32px;
+    border-radius: 25px;
+    background-color: rgb(15, 20, 25);
+    color: white;
+}
+.Save:hover{
+    background-color:  rgb(34, 34, 34);
+    cursor: pointer;
+}
+.EditWallpaper {
+
+    width: 580px;
+    height: 193px;
+    margin:0px 5px;
+    background-color: rgb(185, 183, 183);
+    position: relative;
+}
+.EditWallpaperIcon{
+    
+    width: 42px;
+    height: 42px;
+    background-color: rgb(92, 92, 92);
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    border-radius: 50%;
+}
+.EditWallpaperIcon:hover{
+    
+   
+    background-color: rgb(139, 139, 139);
+    cursor: pointer;
+}
+.EditProfilePicture{
+    width: 145.5px;
+    height: 145.5px;
+    position: absolute;
+    top:115px;
+    left:10px;
+    
+}
+
+.EditProfilePicture img{
+    
+    width: 133.5px;
+    height: 133.5px;
+    border-radius: 50%;
+    border: 4px solid white;
+   
+}
+.EditProfilePictureIcon{
+    
+    width: 42px;
+    height: 42px;
+    background-color: rgb(92, 92, 92,0.7);
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    border-radius: 50%;
+    position: absolute;
+    top:50px;
+    left:50px;
+}
+.EditProfilePictureIcon:hover{
+    
+   
+    background-color: rgb(139, 139, 139,0.8);
+    cursor: pointer;
+}

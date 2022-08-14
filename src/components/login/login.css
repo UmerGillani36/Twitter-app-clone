@@ -1,0 +1,66 @@
+.Google{
+
+    width:100%;
+    height:50px;
+    border:1px solid lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:25px;
+    font-family: "Google Sans",arial,sans-serif;
+    /* margin-bottom: 10px; */
+    cursor: pointer;
+
+}
+.Google:hover{
+
+    background-color: rgba(224, 243, 222, 0.925);
+}
+.Apple{
+
+    width:100%;
+    height:50px;
+    border:1px solid lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:25px;
+    font-family: "Google Sans",arial,sans-serif;
+    /* margin-bottom: 10px; */
+    cursor: pointer;
+
+}
+.Apple:hover{
+
+    background-color: rgba(0,0,0,0.1);
+}
+.Or{
+    font-size:18px;
+    position: relative;
+    text-align: center;
+    /* margin-bottom:10px; */
+
+}
+.Or::before{
+    content: "";
+  display: block;
+  width: 40%;
+  height: 1px;
+  background: lightgrey;
+  left: 10px;
+  top: 50%;
+  position: absolute;
+
+}
+
+.Or::after{
+    content: "";
+  display: block;
+  width: 40%;
+  height: 1px;
+  background: lightgrey;
+  right: 10px;
+  top: 50%;
+  position: absolute;
+
+}
